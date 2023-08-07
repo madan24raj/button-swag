@@ -1,0 +1,32 @@
+{
+  "name": "button-swag",
+  "version": "0.1.0",
+  "description": "UI Button Onsuccess and OnDone",
+  "main": "dist/index.d.ts/index.js",
+  "type": "module",
+  "scripts": {
+    "test": "jest",
+    "build": "webpack --mode=production --config webpack.config.js",
+    "start": "webpack --mode=development --config webpack.config.js",
+    "storybook": "storybook dev -p 6006",
+    "build-storybook": "storybook build"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/madan24raj/button-swag.git"
+  },
+  "author": "Your Name or Organization",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/madan24raj/button-swag/issues"
+  },
+  "homepage": "https://github.com/madan24raj/button-swag#readme",
+  "peerDependencies": {
+    "react": "^18.2.0",
+    "styled-components": "^6.0.7"
+  },
+
+  "dependencies": {
+    "ts-node": "^10.9.1"
+  }
+}
